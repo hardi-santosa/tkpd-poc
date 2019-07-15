@@ -2,7 +2,8 @@
 
 ### What is this repository for? ###
 
-This is POC repo for Cypress web automation using Spec and Cucumber-page object
+This is POC repo for Cypress web automation
+///using Spec and Cucumber-page object
 
 ### How do I get set up? ###
 
