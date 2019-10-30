@@ -2,8 +2,7 @@
 
 ### What is this repository for? ###
 
-This is POC repo for Cypress web automation
-///using Spec and Cucumber-page object///
+This is POC repo for Webdriver IO
 
 ### How do I get set up? ###
 
@@ -15,30 +14,10 @@ This is POC repo for Cypress web automation
 
 **4.** Install all dependencies
 ```sh
-$ npm ci
-or
 $ npm install
 ```
 
-**5.** Install Cypress as global or local
+**5.** Run test:
 ```sh
-$ npm install cypress -g
-or
-$ npm install cypress --save-dev
-```
-
-**6.** Copy environment and set the value
-```sh
-$ cp cypress.env.json.example cypress.env.json
-```
-
-**7.** Open test-runner
-```sh
-$ npm run cypress:open
-```
-Kindly add project folder manually if the project view is empty
-
-**8.** Run test:
-```sh
-$ npm test
+$ npm run test
 ```
