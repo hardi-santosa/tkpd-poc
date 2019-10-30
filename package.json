@@ -1,0 +1,29 @@
+{
+  "name": "tkpd-poc",
+  "version": "1.0.0",
+  "description": "POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardi-santosa/tkpd-poc.git"
+  },
+  "keywords": [],
+  "author": "Test Engineer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardi-santosa/tkpd-poc/issues"
+  },
+  "homepage": "https://github.com/hardi-santosa/tkpd-poc#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.15.5",
+    "@wdio/local-runner": "^5.15.5",
+    "@wdio/mocha-framework": "^5.15.1",
+    "@wdio/spec-reporter": "^5.15.2",
+    "@wdio/sync": "^5.15.1",
+    "chromedriver": "^78.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
